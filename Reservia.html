@@ -12,12 +12,12 @@
         <header>
 
             <img src="images/logo/Reservia@3x.png" alt="logo de Reservia" id="logo"/>
+            <a class="inscription" href="#">S'inscrire</a>
 
             <nav>
                 <p>
-                    <a href="#hebergements">Hébergements</a>
-                    <a href="#activités">Activités</a>
-                    <a href="#">S'inscrire</a>
+                    <a class="navigationhebergement" href="#hebergements">Hébergements</a>
+                    <a class="navigationactivite" href="#activites">Activités</a>
                 </p>
             </nav>
 
@@ -29,34 +29,33 @@
 
             <p>En plein centre ville ou en pleine nature</p>
 
-            <form method="post" action="#" >
-                <p>
-                    <input type="search" name="destination" placeholder="Marseille, France"/>
-                    <input type="submit" value="Rechercher"/>
-                </p>
-            </form>
+            <div class="boutonrecherche">
+                <i class="fas fa-map-marker-alt map"></i>    
+                <input type="search" name="destination" class="recherche" placeholder=" Marseille, France"/>
+                <i class="fas fa-search fondblanc"></i>
+            </div>
 
             <p>
-                Filtres
-                <a href="#"><i class="fas fa-money-bill-wave"></i><input type="button" value="Economique"/></a>
-                <a href="#"><i class="fas fa-child"></i><input type="button" value="Familial"/></a>
-                <a href="#"><i class="fas fa-heart"></i><input type="button" value="Romantique"/></a>
-                <a href="#"><i class="fas fa-dog"></i><input type="button" value="Animaux autorisés"/></a><br/>
+                <h2>Filtres</h2>
+                <a href="#"><i class="fas fa-money-bill-wave filtre"></i><input type="button" class="boutonfiltre" value="Economique"/></a>
+                <a href="#"><i class="fas fa-child filtre"></i><input type="button" class="boutonfiltre" value="Familial"/></a>
+                <a href="#"><i class="fas fa-heart filtre"></i><input type="button" class="boutonfiltre" value="Romantique"/></a>
+                <a href="#"><i class="fas fa-dog filtre"></i><input type="button" class="boutonfiltre" value="Animaux autorisés"/></a><br/>
                 <i class="fas fa-info-circle"></i>
                 Plus de 500 logements sont disponibles dans cette ville
             </p>
 
         </section> 
 
-        <section>
+        <section class="senstel">
 
             <div>
 
-                <h2>Hébergements à Marseille</h2>
+                <h2 id="hebergements">Hébergements à Marseille</h2>
 
                 <a href="#">
                     <figure>
-                        <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="photo de l'Auberge la Cannebière" />
+                        <img class="photo" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="photo de l'Auberge la Cannebière" />
                         <figcaption>
                             Auberge de la Cannebière<br/>
                             Nuit à partir de 25€<br/>
@@ -71,7 +70,7 @@
 
                 <a href="#">
                     <figure>
-                        <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="photo de l'Hôtel du port" />
+                        <img class="photo" src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="photo de l'Hôtel du port" />
                         <figcaption>
                             Hôtel du port<br/>
                             Nuit à partir de 52€<br/>
@@ -86,7 +85,7 @@
 
                 <a href="#">
                     <figure>
-                        <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="photo de l'Hôtel les mouettes" />
+                        <img class="photo" src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="photo de l'Hôtel les mouettes" />
                         <figcaption>
                             Hôtel les mouettes<br/>
                             Nuit à partir de 76€<br/>
@@ -101,7 +100,7 @@
 
                 <a href="#">
                     <figure>
-                        <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="photo de l'Hôtel de la mer" />
+                        <img class="photo" src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="photo de l'Hôtel de la mer" />
                         <figcaption>
                             Hôtel de la mer<br/>
                             Nuit à partir de 46€<br/>
@@ -116,7 +115,7 @@
 
                 <a href="#">
                     <figure>
-                        <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="photo de l'auberge Le Panier" />
+                        <img class="photo" src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="photo de l'auberge Le Panier" />
                         <figcaption>
                             Auberge Le Panier<br/>
                             Nuit à partir de 23€<br/>
@@ -131,7 +130,7 @@
 
                 <a href="#">
                     <figure>
-                        <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="photo de l'hôtel chez Amina" />
+                        <img class="photo" src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="photo de l'hôtel chez Amina" />
                         <figcaption>
                             Hôtel chez Amina<br/>
                             Nuit à partir de 96€<br/>
@@ -212,7 +211,7 @@
 
         <section>
 
-            <h2>Activités à Marseille</h2>
+            <h2 id="activites">Activités à Marseille</h2>
 
             <a href="#">
                 <figure>

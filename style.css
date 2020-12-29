@@ -1,0 +1,143 @@
+@font-face{
+    font-family: 'Raleway';
+    src: url('Raleway-Regular.ttf')
+}
+
+/*Styles pour mobiles*/
+@media screen and (max-width: 780px){
+    body{
+        font-family: 'Raleway';
+    }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap; /*Permet d'aller à la ligne*/
+    }
+
+    #logo{
+        width: 30%;
+    }
+
+    nav{
+        display: flex;
+        width: 100%;
+    }
+
+    .inscription{
+        color: #0065FC;
+        text-decoration: none;
+        font-weight: bold;
+        margin-top: 2.5em;
+    }
+
+    .map{
+        background-color: #F2F2F2;
+        padding: 0.5em;
+        border-radius: 8px 0px 0px 8px;
+    }
+
+    .navigationhebergement{
+        text-decoration: none;
+        border-bottom: #0065FC solid;
+        background-color: red;
+    }
+
+    .navigationactivite{
+        text-decoration: none;
+        border-bottom: #F2F2F2 solid;
+        background-color: blueviolet;
+    }
+
+    .senstel{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .recherche{
+        padding: 0.5em;
+        font-weight: bold;
+        border: 1px #F2F2F2 solid;
+        border-radius: 0px;
+        border-right: none;
+        border-left: none;
+
+    }
+
+    .boutonrecherche{
+        display: flex;
+    }
+    
+    figure{
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        box-shadow: 6px 6px 6px #F2F2F2;
+    }
+
+    .filtre{
+        background-color: #DEEBFF;
+        color: #0065FC;
+        padding: 0.5em;
+        border-radius: 50%;
+        width: 20px;
+        text-align: center;
+    }
+
+    .boutonfiltre{
+        background-color: white;
+        padding: 0.5em;
+        border: 2px #F2F2F2 solid;
+        border-radius: 0px 20px 20px 0px;
+        border-left: none;
+        font-weight: bold;
+    }
+
+    .photo{
+        border-radius: 6px 6px 0px 0px;
+        padding: 2px;
+        width: auto;
+        height: auto;
+    }
+
+    .fondblanc{
+        background-color: #0065FC;
+        color: white;
+        padding: 0.5em;
+        border-radius: 8px;
+    }
+}
+
+/*Styles pour les écrans de tablettes*/
+@media screen and (min-width: 780px) and (max-width: 979px){
+
+}
+
+/*Styles desktop*/
+@media screen and (min-width: 980px){
+
+}
+
+
+
+/*
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+    width: 7%;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+}
+*/
+
