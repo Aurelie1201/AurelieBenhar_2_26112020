@@ -25,7 +25,7 @@
         color: #0065FC;
         text-decoration: none;
         font-weight: bold;
-        margin-top: 2.7em;
+        margin-top: 2.4em;
         margin-left: 5em;
         padding-right: 1em;
         height: 70px;
@@ -86,22 +86,37 @@
         box-shadow: 6px 6px 6px #F2F2F2;
     }
 
+    .divfiltres{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     .filtre{
         background-color: #DEEBFF;
         color: #0065FC;
-        padding: 0.5em;
+        padding: 14px;
         border-radius: 50%;
         width: 20px;
+        height: 16px;
         text-align: center;
+        position: relative;
+        left: 18px;
     }
 
     .boutonfiltre{
         background-color: white;
-        padding: 0.5em;
         border: 2px #F2F2F2 solid;
         border-radius: 0px 20px 20px 0px;
         border-left: none;
         font-weight: bold;
+        padding-left: 23.5px;
+        padding-top: 13.8px;
+        padding-bottom: 11.5px;
+        margin-bottom: 10px;
+    }
+
+    .boutonfiltre:hover{
+        background-color: #DEEBFF;
     }
 
     .photo{
@@ -111,11 +126,48 @@
         height: auto;
     }
 
-    .fondblanc{
+    .fondbleu{
         background-color: #0065FC;
         color: white;
         padding: 0.5em;
         border-radius: 8px;
+    }
+
+    .fondblanc{
+        background-color: #0065FC;
+        color: white;
+        border-radius: 15px;
+        border-color: #F2F2F2;
+    }
+
+    aside{
+        background-color: #F2F2F2;
+    }
+
+    .populaire{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .titrepopulaire{
+        margin-bottom: 0px;
+    }
+
+    .fontpopulaire{
+        margin-top: 30px;
+    }
+
+    .divpop{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .imagepop{
+
+    }
+
+    .legendepop{
+
     }
 }
 
