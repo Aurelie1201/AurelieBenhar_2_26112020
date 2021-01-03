@@ -21,9 +21,12 @@
         padding-left: 1em;
     }
 
+    a{
+        text-decoration: none;
+    }
+
     .inscription{
         color: #0065FC;
-        text-decoration: none;
         font-weight: bold;
         margin-top: 2.4em;
         margin-left: 5em;
@@ -43,7 +46,6 @@
     }
 
     .navigationhebergement{
-        text-decoration: none;
         border-bottom: #0065FC solid;
         text-align: center;
         width: 50%;
@@ -52,7 +54,6 @@
     }
 
     .navigationactivite{
-        text-decoration: none;
         border-bottom: #F2F2F2 solid;
         text-align: center;
         width: 50%;
@@ -160,14 +161,46 @@
     .divpop{
         display: flex;
         flex-direction: row;
+        margin: 12px 15px 12px 15px;
+        border-radius: 15px;
+        background-color: white;
     }
 
     .imagepop{
-
+        width: 126px;
+        height: 126px;
+        border-radius: 15px 0px 0px 15px;
+        margin: 4px 15px 4px 4px;
+        background-size: cover;
     }
 
     .legendepop{
+        text-decoration: none;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
 
+    .nomhotel{
+        font-weight: bold;
+        color: black;
+    }
+
+    .tarif{
+        font-size: 0.8em;
+        color: black;
+    }
+
+    .note{
+        color: #0065FC;
+        margin-top: 40px;
+        width: 70px;
+        height: 10px;
+    }
+
+    .etoilesbleues{
+        color: #0065FC;
+        width: 9px;
+        height: auto;
     }
 }
 
