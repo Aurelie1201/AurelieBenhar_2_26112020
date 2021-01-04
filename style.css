@@ -76,14 +76,29 @@
         flex-direction: column-reverse;
     }
 
+    .trouverhebergement{
+        font-size: 1.2em;
+    }
+
+    .ligne{
+        font-size: 0.9em;
+        padding-bottom: 30px;
+    }
+
     .recherche{
         padding: 0.5em;
-        font-weight: bold;
         border: 1px #F2F2F2 solid;
         border-radius: 0px;
         border-right: none;
         border-left: none;
+        width: 75%;
 
+    }
+
+    .recherche::placeholder{
+        color: black;
+        font-size: 1.1em;
+        font-weight: bolder;
     }
 
     .boutonrecherche{
@@ -134,7 +149,7 @@
     .divhebergement{
         border-radius: 15px;
         margin: 12px 15px 12px 15px;
-        box-shadow: 6px 6px 6px #F2F2F2;
+        box-shadow: 0px 0px 6px 6px #F2F2F2;
         height: 185px;
     }
 
@@ -150,18 +165,27 @@
         color: black;
         font-size: 0.9em;
         margin-left: 4px;
+        margin-top: 4px;
     }
 
     .tarifhebergement{
         font-size: 0.8em;
         color: black;
         margin-left: 4px;
+        margin-top: 4px;
+    }
+
+    .notehebergement{
+        display: flex;
+        margin-left: 4px;
+        margin-top: 5px;
     }
 
     #hebergements{
         font-size: 1.2em;
         font-weight: bolder;
         margin-left: 15px;
+        margin-top: 30px;
     }
 
     .plus{
@@ -177,8 +201,8 @@
     
     .divactivite{
         border-radius: 15px;
-        margin: 12px 15px 12px 15px;
-        box-shadow: 6px 6px 6px #F2F2F2;
+        margin: 12px 15px 22px 15px;
+        box-shadow: 0px 0px 6px 4px #F2F2F2;
         height: 175px;
     }
 
@@ -258,19 +282,44 @@
 
     .note{
         color: #0065FC;
-        margin-top: 40px;
-        width: 70px;
-        height: 10px;
+        display: flex;
+        margin-top: 50px;
     }
 
     .etoilesbleues{
         color: #0065FC;
-        width: 9px;
-        height: auto;
+        font-size: 70%;
     }
 
     .etoilesgrises{
         color: #F2F2F2;
+        font-size: 70%;
+    }
+
+    footer{
+        background-color: #F2F2F2;
+        margin-top: 40px;
+    }
+
+    h3{
+        font-size: 1em;
+        padding: 40px 0px 0px 15px;
+        margin: 0px;
+    }
+
+    ul{
+        list-style-type: none;
+        padding-left: 15px;
+        margin: 0px;
+    }
+
+    li{
+        padding-top: 12px;
+    }
+
+    .liste{
+        color: black;
+        font-size: 0.9em;
     }
 }
 
