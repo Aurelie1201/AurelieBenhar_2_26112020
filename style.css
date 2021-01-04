@@ -35,8 +35,17 @@
 
     .map{
         background-color: #F2F2F2;
-        padding: 0.5em;
-        border-radius: 8px 0px 0px 8px;
+        padding: 14px 14px 14px 14px;
+        border-radius: 15px 0px 0px 15px;
+    }
+
+    .fondbleu{
+        background-color: #0065FC;
+        color: white;
+        padding: 14px 18px 14px 18px;
+        border-radius: 15px;
+        position: relative;
+        right: 18px;
     }
 
     nav{
@@ -79,6 +88,14 @@
 
     .boutonrecherche{
         display: flex;
+        height: 45px;
+    }
+
+    .titrefiltre{
+        font-size: 1em;
+        font-weight: bolder;
+        margin-left: 15px;
+        margin-top: 30px;
     }
 
     .divfiltres{
@@ -142,16 +159,41 @@
     }
 
     #hebergements{
-        font-size: 1.1em;
+        font-size: 1.2em;
         font-weight: bolder;
         margin-left: 15px;
     }
 
-    .fondbleu{
-        background-color: #0065FC;
-        color: white;
-        padding: 0.5em;
-        border-radius: 8px;
+    .plus{
+        font-size: 1em;
+        font-weight: bolder;
+        margin: 15px 0px 30px 15px;
+    }
+
+    #activites{
+        font-size: 1.2em;
+        margin-left: 15px;
+    }
+    
+    .divactivite{
+        border-radius: 15px;
+        margin: 12px 15px 12px 15px;
+        box-shadow: 6px 6px 6px #F2F2F2;
+        height: 175px;
+    }
+
+    .photoactivite{
+        border-radius: 15px 15px 0px 0px;
+        height: 120px;
+        width: 100%;
+    }
+
+    .legendactivite{
+        font-weight: bolder;
+        color: black;
+        font-size: 0.9em;
+        margin-top: 18px;
+        margin-left: 15px;
     }
 
     .fondblanc{
