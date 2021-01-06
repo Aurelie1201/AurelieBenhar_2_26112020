@@ -5,8 +5,7 @@
     url('Raleway/static/Raleway-SemiBold.ttf'),
     url('Raleway/static/Raleway-Black.ttf'),
     url('Raleway/static/Raleway-Bold.ttf'),
-    url('Raleway/static/Raleway-ExtraBold.ttf'),
-    url('Raleway/Raleway-Italic-VariableFont_wght.ttf');
+    url('Raleway/static/Raleway-ExtraBold.ttf');
 }
 
 /*Styles pour mobiles
@@ -25,8 +24,8 @@
     #logo{
         width: 27%;
         height: auto;
-        padding-left: 10px;
-        margin-top: 15px;
+        padding-left: 50px;
+        margin-top: 60px;
     }
 
     a{
@@ -36,8 +35,10 @@
     .inscription{
         color: #0065FC;
         font-weight: bold;
-        margin-top: 28px;
-        padding-right: 10px;
+        margin-top: 105px;
+        width: 23%;
+        font-size: 2.5em;
+        font-weight: bold;
     }
 
     .map{
@@ -61,21 +62,23 @@
     }
 
     .navigationhebergement{
-        border-bottom: #0065FC solid;
+        border-bottom: 7px #0065FC solid;
         text-align: center;
         width: 50%;
         padding-bottom: 1em;
         color: #0065FC;
-        margin-top: 30px;
+        margin-top: 60px;
+        font-size: 2.5em;
     }
 
     .navigationactivite{
-        border-bottom: #F2F2F2 solid;
+        border-bottom: 7px #F2F2F2 solid;
         text-align: center;
         width: 50%;
         padding-bottom: 1em;
         color: black;
-        margin-top: 30px;
+        margin-top: 60px;
+        font-size: 2.5em;
     }
 
     .senstel{
@@ -84,13 +87,15 @@
     }
 
     .trouverhebergement{
-        font-size: 1.2em;
-        font-weight: bold;
+        margin: 90px 130px 50px 50px;
+        font-size: 2em;
+        font-weight: bolder;
     }
 
     .ligne{
         font-size: 0.9em;
         padding-bottom: 30px;
+        margin-left: 50px;
     }
 
     .recherche{
@@ -111,7 +116,9 @@
 
     .boutonrecherche{
         display: flex;
-        height: 45px;
+        height: 130px;
+        width: 335px;
+        margin: 0 auto;
     }
 
     .titrefiltre{
