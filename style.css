@@ -9,8 +9,8 @@
     url('Raleway/Raleway-Italic-VariableFont_wght.ttf');
 }
 
-/*Styles pour mobiles*/
-@media all and (max-width: 640px){
+/*Styles pour mobiles
+@media all and (max-width: 640px){*/
     body{
         font-family: 'Raleway';
         margin: 0px;
@@ -238,8 +238,8 @@
     .fondblanc{
         background-color: #0065FC;
         color: white;
-        border-radius: 15px;
-        border-color: #F2F2F2;
+        border-radius: 50%;
+        border: 1px solid #d4d2d2;
     }
 
     aside{
@@ -336,38 +336,14 @@
         color: black;
         font-size: 0.9em;
     }
-}
+/*}
 
-/*Styles pour les écrans de tablettes*/
+Styles pour les écrans de tablettes
 @media screen and (min-width: 780px) and (max-width: 979px){
 
 }
 
-/*Styles desktop*/
+Styles desktop
 @media screen and (min-width: 980px){
 
-}
-
-
-
-/*
-header{
-    display: flex;
-    justify-content: space-between;
-}
-
-#logo{
-    width: 7%;
-    height: auto;
-}
-
-a{
-    text-decoration: none;
-}
-
-nav{
-    display:flex;
-    justify-content: space-between;
-}
-*/
-
+}*/
