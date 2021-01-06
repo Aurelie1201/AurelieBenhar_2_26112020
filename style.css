@@ -4,7 +4,7 @@
 }
 
 /*Styles pour mobiles*/
-@media screen and (max-width: 780px){
+@media (max-width: 640px){
     body{
         font-family: 'Raleway';
     }
