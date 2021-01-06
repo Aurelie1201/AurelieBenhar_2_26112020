@@ -1,12 +1,19 @@
 @font-face{
     font-family: 'Raleway';
-    src: url('Raleway-Regular.ttf')
+    src: url('Raleway/static/Raleway-Medium.ttf'),
+    url('Raleway/static/Raleway-Regular.ttf'),
+    url('Raleway/static/Raleway-SemiBold.ttf'),
+    url('Raleway/static/Raleway-Black.ttf'),
+    url('Raleway/static/Raleway-Bold.ttf'),
+    url('Raleway/static/Raleway-ExtraBold.ttf'),
+    url('Raleway/Raleway-Italic-VariableFont_wght.ttf');
 }
 
 /*Styles pour mobiles*/
-@media all and (max-devide-width: 480px){
+@media all and (max-width: 640px){
     body{
         font-family: 'Raleway';
+        margin: 0px;
     }
 
     header{
@@ -16,8 +23,8 @@
     }
 
     #logo{
-        width: 90px;
-        height: 40px;
+        width: 27%;
+        height: auto;
         padding-left: 10px;
         margin-top: 15px;
     }
@@ -78,6 +85,7 @@
 
     .trouverhebergement{
         font-size: 1.2em;
+        font-weight: bold;
     }
 
     .ligne{
