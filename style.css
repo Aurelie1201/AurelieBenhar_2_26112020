@@ -236,15 +236,33 @@
         background-color: white;
     }
 
-    .imagepop{
-        width: 40%;
+    .divimagepop{
+        width: 45%;
         border-radius: 50px 0px 0px 50px;
         margin: 15px 50px 15px 15px;
-        background-size: cover;
+        overflow: hidden;
+    }
+
+    .imagepop1{
+        margin-left: -110px;
+        margin-top: -10px;
+    }
+
+    .imagepop2{
+        margin-left: -90px;
+        margin-top: -20px;
+    }
+
+    .imagepop3{
+        margin-left: -10px;
+        margin-top: -70px;
+        width: 350px;
+        height: 480px;
     }
 
     .legendepop{
         text-decoration: none;
+        width: 60%;
         margin: 40px 40px 40px 0px;
         display: flex;
         flex-direction: column;
@@ -279,7 +297,7 @@
     }
     
     .divhebergement{
-        border-radius: 15px;
+        border-radius: 50px;
         margin: 0px 50px 30px 50px;
         box-shadow: 0px 0px 6px 6px #F2F2F2;
         height: 510px;
@@ -287,7 +305,7 @@
     }
 
     .divphoto{
-        border-radius: 15px 15px 0px 0px;
+        border-radius: 50px 50px 0px 0px;
         margin: 10px 10px 0px 10px;
         height: 60%;
         width: 98%;
@@ -295,7 +313,31 @@
     }
 
     .photo{
-        background-size: cover;
+        width: 900px;
+        height: auto;
+        margin-left: -20px;
+        margin-top: -150px;
+    }
+
+    .photo2{
+        width: 900px;
+        height: auto;
+        margin-left: -20px;
+        margin-top: -270px;
+    }
+
+    .photo3{
+        width: 900px;
+        height: auto;
+        margin-left: -20px;
+        margin-top: -90px;
+    }
+
+    .photo4{
+        width: 900px;
+        height: auto;
+        margin-left: -20px;
+        margin-top: -520px;
     }
 
     .nomhebergement{
@@ -345,10 +387,29 @@
         height: 500px;
     }
 
-    .photoactivite{
+    .divphotoactivite{
         border-radius: 50px 50px 0px 0px;
         height: 70%;
         width: 100%;
+        overflow: hidden;
+    }
+
+    .photoactivite{
+        width: 880px;
+        height: auto;
+        margin-top: -40px;
+    }
+
+    .photoactivite2{
+        width: 880px;
+        height: auto;
+        margin-top: -410px;
+    }
+
+    .photoactivite3{
+        width: 880px;
+        height: auto;
+        margin-top: -80px;
     }
 
     .legendactivite{
