@@ -8,8 +8,8 @@
     url('Raleway/static/Raleway-ExtraBold.ttf');
 }
 
-/*Styles pour mobiles
-@media all and (max-width: 640px){*/
+/*Styles pour mobiles*/
+@media all and (max-width: 640px){
     body{
         font-family: 'Raleway';
         margin: 0px;
@@ -22,10 +22,9 @@
     }
 
     #logo{
-        width: 27%;
         height: auto;
-        padding-left: 50px;
-        margin-top: 60px;
+        padding-left: 20px;
+        padding-top: 30px;
     }
 
     a{
@@ -35,10 +34,9 @@
     .inscription{
         color: #0065FC;
         font-weight: bold;
-        margin-top: 105px;
         width: 23%;
-        font-size: 2.5em;
         font-weight: bold;
+        padding-top: 50px;
     }
 
     nav{
@@ -47,23 +45,21 @@
     }
 
     .navigationhebergement{
-        border-bottom: 7px #0065FC solid;
+        border-bottom: 3px #0065FC solid;
         text-align: center;
         width: 50%;
-        padding-bottom: 1em;
         color: #0065FC;
-        margin-top: 60px;
-        font-size: 2.5em;
+        margin-top: 30px;
+        padding-bottom: 15px;
     }
 
     .navigationactivite{
-        border-bottom: 7px #F2F2F2 solid;
+        border-bottom: 3px #F2F2F2 solid;
         text-align: center;
         width: 50%;
-        padding-bottom: 1em;
         color: black;
-        margin-top: 60px;
-        font-size: 2.5em;
+        margin-top: 30px;
+        padding-bottom: 15px;
     }
 
     .senstel{
@@ -72,15 +68,15 @@
     }
 
     .trouverhebergement{
-        margin: 90px 130px 50px 50px;
-        font-size: 2em;
+        margin: 30px 0px 0px 20px;
         font-weight: bolder;
+        font-size: 1.4em;
     }
 
     .ligne{
         font-size: 0.9em;
-        padding-bottom: 30px;
-        margin-left: 50px;
+        margin-top: 15px;
+        margin-left: 20px;
     }
 
     .recherche{
@@ -89,51 +85,43 @@
         border-right: none;
         border-left: none;
         width: 75%;
-        padding-left: 30px;
-        padding-top: 25px;
+        padding-left: 10px;
     }
 
     .recherche::placeholder{
         color: black;
-        font-size: 3.5em;
         font-weight: bolder;
         font-family: 'Raleway';
+        font-size: 1.2em;
     }
 
     .boutonrecherche{
         display: flex;
-        height: 120px;
         width: 90%;
-        margin: 60px auto;
+        margin: 20px;
     }
 
     .map{
         background-color: #F2F2F2;
-        padding: 14px 14px 14px 14px;
-        border-radius: 40px 0px 0px 40px;
-        width: 100px;
-        font-size: 50px;
+        border-radius: 15px 0px 0px 15px;
         text-align: center;
-        padding-top: 33px;
+        padding: 18px;
     }
 
     .fondbleu{
         background-color: #0065FC;
         color: white;
-        width: 100px;
-        padding: 40px 18px 14px 18px;
-        border-radius: 40px;
+        border-radius: 15px;
         position: relative;
         right: 18px;
-        font-size: 40px;
         text-align: center;
+        padding: 18px;
     }
 
     .titrefiltre{
         font-size: 1em;
         font-weight: bolder;
-        margin-left: 50px;
-        margin-top: 90px;
+        margin: 30px 0px 0px 20px;
     }
 
     .divfiltres{
@@ -144,39 +132,39 @@
     .filtre{
         background-color: #DEEBFF;
         color: #0065FC;
-        padding: 40px;
+        padding: 15px;
         border-radius: 50%;
-        font-size: 50px;
         text-align: center;
+        font-size: 1.2em;
         position: relative;
-        left: 60px;
+        left: 20px;
     }
 
     .filtrechild{
         background-color: #DEEBFF;
         color: #0065FC;
-        padding: 40px 52px 40px 52px;
+        padding: 15px 17px 15px 17px;
         border-radius: 50%;
-        font-size: 50px;
         text-align: center;
+        font-size: 1.2em;
         position: relative;
-        left: 60px;
+        left: 20px;
     }
 
     .boutonfiltre{
         background-color: white;
-        border: 6px #F2F2F2 solid;
+        border: 2.5px #F2F2F2 solid;
         border-radius: 0px 60px 60px 0px;
         border-left: none;
-        font-weight: bold;
+        font-weight: bolder;
         font-family: 'Raleway';
-        padding: 0px 50px 0px 90px ;
-        font-size: 2.5em;
+        font-size: 1em;
+        padding: 0px 15px 0px 30px ;
     }
 
     .classfiltre{
         display: flex;
-        margin-top: 30px;
+        margin-top: 15px;
     }
 
     .boutonfiltre:hover{
@@ -185,9 +173,8 @@
 
     .divinfo{
         display: flex;
-        padding-left: 50px;
-        margin-top: 80px;
-        margin-bottom: 100px;
+        margin: 30px 0px 40px 20px;
+
     }
 
     .fondblanc{
@@ -195,75 +182,75 @@
         color: white;
         border-radius: 50%;
         border: 1px solid #d4d2d2;
-        width: 50px;
-        height: 50px;
-        font-size: 50px;
+        width: 22px;
+        height: 22px;
+        font-size: 22px;
     }
 
     .info{
-        font-size: 2.5em;
-        margin: 0px 0px 0px 30px;
+        margin: 0px 0px 0px 10px;
+        padding-top: 2px;
     }
 
     .populaire{
         display: flex;
         justify-content: space-between;
-        margin: 100px 50px 70px 50px;
+        margin: 30px 20px 30px 20px;
     }
 
     .titrepopulaire{
-        font-size: 3.5em;
         font-weight: bolder;
-        width: 60%;
+        font-size: 1.4em;
         margin: 0px;
     }
 
     .fontpopulaire{
-        font-size: 60px;
+        font-size: 1.4em;
+        padding-top: 4px;
     }
 
     aside{
         background-color: #F2F2F2;
-        padding-bottom: 60px;
+        padding-bottom: 10px;
     }
 
     .divpop{
         display: flex;
         flex-direction: row;
-        height: 370px;
-        margin: 0px 50px 30px 50px;
-        border-radius: 50px;
+        height: 145px;
+        margin: 0px 20px 30px 20px;
+        border-radius: 23px;
         background-color: white;
     }
 
     .divimagepop{
         width: 45%;
-        border-radius: 50px 0px 0px 50px;
-        margin: 15px 50px 15px 15px;
+        border-radius: 23px 0px 0px 23px;
+        margin: 4px 0px 4px 4px;
         overflow: hidden;
     }
 
     .imagepop1{
-        margin-left: -110px;
-        margin-top: -10px;
+        width: 230px;
+        height: auto;
+        margin-left: -50px;
     }
 
     .imagepop2{
-        margin-left: -90px;
-        margin-top: -20px;
+        width: 180px;
+        height: auto;
+        margin-left: -30px;
     }
-
     .imagepop3{
-        margin-left: -10px;
-        margin-top: -70px;
-        width: 350px;
-        height: 480px;
+        width: 130px;
+        height: auto;
+        margin-top: -30px;
     }
 
     .legendepop{
         text-decoration: none;
         width: 60%;
-        margin: 40px 40px 40px 0px;
+        margin: 15px 0px 15px 20px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -272,187 +259,192 @@
     .nomhotel{
         font-weight: bold;
         color: black;
-        font-size: 2.6em;
     }
 
     .tarif{
-        font-size: 2.2em;
         color: black;
+        padding-bottom: 15px;
+        font-size: 0.9em;
     }
 
     .note{
         color: #0065FC;
         display: flex;
-        margin-top: 50px;
+        margin-top: 10px;
     }
 
     .etoilesbleues{
         color: #0065FC;
-        font-size: 190%;
+        font-size: 75%;
+        padding-right: 1px;
     }
 
     .etoilesgrises{
         color: #F2F2F2;
-        font-size: 190%;
+        font-size: 75%;
+    }
+
+    #hebergements{
+        font-weight: bolder;
+        font-size: 1.3em;
+        margin-left: 20px;
+        margin-top: 40px;
     }
     
     .divhebergement{
-        border-radius: 50px;
-        margin: 0px 50px 30px 50px;
+        border-radius: 23px;
+        margin: 0px 20px 13px 20px;
         box-shadow: 0px 0px 6px 6px #F2F2F2;
-        height: 510px;
+        height: 200px;
         overflow: hidden;
     }
 
     .divphoto{
-        border-radius: 50px 50px 0px 0px;
-        margin: 10px 10px 0px 10px;
+        border-radius: 23px 23px 0px 0px;
+        margin: 4px 4px 0px 4px;
         height: 60%;
         width: 98%;
         overflow: hidden;
     }
 
     .photo{
-        width: 900px;
+        width: 350px;
         height: auto;
         margin-left: -20px;
-        margin-top: -150px;
+        margin-top: -55px;
     }
 
     .photo2{
-        width: 900px;
+        width: 340px;
         height: auto;
-        margin-left: -20px;
-        margin-top: -270px;
+        margin-left: -10px;
+        margin-top: -100px;
     }
 
     .photo3{
-        width: 900px;
+        width: 340px;
         height: auto;
-        margin-left: -20px;
-        margin-top: -90px;
+        margin-top: -30px;
     }
 
     .photo4{
-        width: 900px;
+        width: 340px;
         height: auto;
-        margin-left: -20px;
-        margin-top: -520px;
+        margin-left: -5px;
+        margin-top: -195px;
     }
 
     .nomhebergement{
         font-weight: bold;
         color: black;
-        font-size: 2.5em;
-        margin-left: 50px;
-        margin-top: 30px;
+        margin-left: 15px;
+        margin-top: 10px;
     }
 
     .tarifhebergement{
-        font-size: 2.2em;
         color: black;
-        margin-left: 50px;
-        margin-top: 10px;
+        font-size: 0.9em;
+        margin-left: 15px;
+        margin-top: 5px;
     }
 
     .notehebergement{
         display: flex;
-        margin-left: 50px;
-        margin-top: 20px;
-    }
-
-    #hebergements{
-        font-size: 3.5em;
-        font-weight: bolder;
-        margin-left: 50px;
-        margin-top: 100px;
+        margin-left: 15px;
+        margin-top: 5px;
     }
 
     .plus{
-        font-size: 2.8em;
         font-weight: bolder;
-        margin: 50px 0px 100px 50px;
+        margin: 20px 0px 30px 20px;
     }
 
     #activites{
-        font-size: 2.8em;
         font-weight: bolder;
-        margin-left: 50px;
+        margin-left: 20px;
     }
     
     .divactivite{
-        border-radius: 50px;
-        margin: 12px 50px 50px 50px;
-        box-shadow: 0px 0px 10px 15px #F2F2F2;
-        height: 500px;
+        border-radius: 23px;
+        margin: 12px 20px 20px 20px;
+        box-shadow: 0px 0px 10px 3px #F2F2F2;
+        height: 200px;
     }
 
     .divphotoactivite{
-        border-radius: 50px 50px 0px 0px;
+        border-radius: 23px 23px 0px 0px;
         height: 70%;
         width: 100%;
         overflow: hidden;
     }
 
     .photoactivite{
-        width: 880px;
+        width: 330px;
         height: auto;
-        margin-top: -40px;
+        margin-top: -8px;
     }
 
     .photoactivite2{
-        width: 880px;
+        width: 330px;
         height: auto;
-        margin-top: -410px;
+        margin-top: -150px;
     }
 
     .photoactivite3{
-        width: 880px;
+        width: 330px;
         height: auto;
-        margin-top: -80px;
+        margin-top: -25px;
     }
 
     .legendactivite{
         font-weight: bolder;
         color: black;
-        font-size: 2.5em;
-        margin-top: 50px;
-        margin-left: 40px;
+        margin-top: 20px;
+        margin-left: 20px;
     }
 
     footer{
         background-color: #F2F2F2;
-        margin-top: 130px;
+        margin-top: 50px;
+        padding-bottom: 20px;
     }
 
     h3{
         font-size: 1em;
-        padding: 110px 0px 40px 50px;
+        padding: 45px 0px 5px 20px;
         margin: 0px;
     }
 
     ul{
         list-style-type: none;
-        padding-left: 50px;
+        padding-left: 20px;
         margin: 0px;
     }
 
     li{
-        padding-top: 20px;
+        padding-top: 10px;
     }
 
     .liste{
         color: black;
-        font-size: 0.9em;
+        font-size: 1em;
     }
-/*}
+}
+    /*Styles desktop*/
+@media screen and (min-width: 980px){
+    body{
+    font-family: 'Raleway';
+}
 
+#logo{
+    width: 6%;
+    height: auto;
+}
+
+}
+
+/*
 Styles pour les écrans de tablettes
 @media screen and (min-width: 780px) and (max-width: 979px){
 
 }
-
-Styles desktop
-@media screen and (min-width: 980px){
-
-}*/
