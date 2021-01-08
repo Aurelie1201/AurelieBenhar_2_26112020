@@ -231,20 +231,20 @@
     }
 
     .imagepop1{
-        width: 230px;
-        height: auto;
-        margin-left: -50px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
     .imagepop2{
-        width: 180px;
-        height: auto;
-        margin-left: -30px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
     .imagepop3{
-        width: 130px;
-        height: auto;
-        margin-top: -30px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
     .legendepop{
@@ -308,30 +308,27 @@
     }
 
     .photo{
-        width: 350px;
-        height: auto;
-        margin-left: -20px;
-        margin-top: -55px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
     .photo2{
-        width: 340px;
-        height: auto;
-        margin-left: -10px;
-        margin-top: -100px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
     .photo3{
-        width: 340px;
-        height: auto;
-        margin-top: -30px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
     .photo4{
-        width: 340px;
-        height: auto;
-        margin-left: -5px;
-        margin-top: -195px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
     .nomhebergement{
@@ -379,19 +376,19 @@
     }
 
     .photoactivite{
-        width: 330px;
+        width: 100%;
         height: auto;
         margin-top: -8px;
     }
 
     .photoactivite2{
-        width: 330px;
+        width: 100%;
         height: auto;
         margin-top: -150px;
     }
 
     .photoactivite3{
-        width: 330px;
+        width: 100%;
         height: auto;
         margin-top: -25px;
     }
