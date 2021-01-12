@@ -69,7 +69,7 @@
 
     .trouverhebergement{
         margin: 30px 0px 0px 20px;
-        font-weight: bolder;
+        font-weight: bold;
         font-size: 1.4em;
     }
 
@@ -90,7 +90,7 @@
 
     .recherche::placeholder{
         color: black;
-        font-weight: bolder;
+        font-weight: bold;
         font-family: 'Raleway';
         font-size: 1.2em;
     }
@@ -116,11 +116,16 @@
         right: 18px;
         text-align: center;
         padding: 18px;
+        display: block;
+    }
+
+    .chercher{
+        display: none;
     }
 
     .titrefiltre{
         font-size: 1em;
-        font-weight: bolder;
+        font-weight: bold;
         margin: 30px 0px 0px 20px;
     }
 
@@ -152,14 +157,14 @@
     }
 
     .boutonfiltre{
-        background-color: white;
+        color: black;
         border: 2.5px #F2F2F2 solid;
         border-radius: 0px 60px 60px 0px;
         border-left: none;
-        font-weight: bolder;
+        font-weight: bold;
         font-family: 'Raleway';
         font-size: 1em;
-        padding: 0px 15px 0px 30px ;
+        padding: 12px 15px 0px 30px ;
     }
 
     .classfiltre{
@@ -200,7 +205,7 @@
     }
 
     .titrepopulaire{
-        font-weight: bolder;
+        font-weight: bold;
         font-size: 1.4em;
         margin: 0px;
     }
@@ -286,7 +291,7 @@
     }
 
     #hebergements{
-        font-weight: bolder;
+        font-weight: bold;
         font-size: 1.3em;
         margin-left: 20px;
         margin-top: 40px;
@@ -335,12 +340,13 @@
     }
 
     .plus{
-        font-weight: bolder;
+        color: black;
+        font-weight: bold;
         margin: 20px 0px 30px 20px;
     }
 
     #activites{
-        font-weight: bolder;
+        font-weight: bold;
         margin-left: 20px;
     }
     
@@ -377,7 +383,7 @@
     }
 
     .legendactivite{
-        font-weight: bolder;
+        font-weight: bold;
         color: black;
         margin-top: 20px;
         margin-left: 20px;
@@ -443,7 +449,7 @@
         order: 1;
         width: 13%;
         color: #0065FC;
-        font-size: 0.55em;
+        font-size: 0.8em;
         font-weight: bold;
         text-align: center;
         margin-top:  22px;
@@ -451,7 +457,7 @@
 
     .navigationhebergement{
         width: 50%;
-        font-size: 0.55em;
+        font-size: 0.8em;
         color: #0065FC;
         border-top: 2px solid #0065FC;
         text-align: center;
@@ -460,15 +466,15 @@
 
     .navigationactivite{
         width: 50%;
-        font-size: 0.55em;
+        font-size: 0.8em;
         text-align: center;
         color: black;
         margin-top: 22px;
     }
 
     .trouverhebergement{
-        font-size: 0.8em;
-        margin: 20px 0px 0px 30px;
+        font-size: 0.9em;
+        margin: 20px 0px 5px 30px;
     }
 
     .ligne{
@@ -494,7 +500,7 @@
 
     .recherche::placeholder{
         color: black;
-        font-weight: bolder;
+        font-weight: bold;
         font-family: 'Raleway';
         font-size: 0.8em;
     }
@@ -508,6 +514,10 @@
     }
 
     .fondbleu{
+        display: none;
+    }
+
+    .chercher{
         background-color: #0065FC;
         color: white;
         border-radius: 0px 10px 10px 0px;
@@ -516,6 +526,7 @@
         text-align: center;
         padding: 9px;
         font-size: 0.7em;
+        display: block;
     }
 
     .blockfiltre{
@@ -553,14 +564,14 @@
     }
 
     .boutonfiltre{
-        background-color: white;
+        color: black;
         border: 2.5px #F2F2F2 solid;
         border-radius: 0px 60px 60px 0px;
         border-left: none;
         font-weight: bold;
         font-family: 'Raleway';
         font-size: 0.6em;
-        padding: 0px 10px 0px 15px ;
+        padding: 6px 10px 0px 15px ;
     }
 
     .classfiltre{
@@ -611,6 +622,8 @@
         padding-right: 20px;
         padding-bottom: 25px;
         font-size: 0.6em;
+        color: black;
+        font-weight: bold;
     }
 
     .etoilesbleues{
@@ -637,7 +650,7 @@
     }
 
     #hebergements{
-        font-weight: bolder;
+        font-weight: bold;
         font-size: 0.8em;
         margin-top: 20px;
         width: 100%;
@@ -707,7 +720,7 @@
     }
 
     .titrepopulaire{
-        font-weight: bolder;
+        font-weight: bold;
         font-size: 0.8em;
         margin: 0px;
     }
@@ -816,7 +829,7 @@
     }
 
     .legendactivite{
-        font-weight: bolder;
+        font-weight: bold;
         color: black;
         margin-top: 20px;
         margin-left: 20px;
