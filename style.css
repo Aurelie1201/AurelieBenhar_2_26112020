@@ -562,7 +562,7 @@
         border-left: none;
         font-weight: bold;
         font-family: 'Raleway';
-        font-size: 1.2em;
+        font-size: 1em;
         padding: 8px 22px 8px 25px ;
     }
 
@@ -780,7 +780,7 @@
 
     #activites{
         font-weight: bold;
-        margin-left: 30px;
+        margin-left: 40px;
         margin-top: 60px;
         font-size: 1.4em;
     }
