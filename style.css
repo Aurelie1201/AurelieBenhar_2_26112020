@@ -9,7 +9,7 @@
 }
 
 /*Styles pour mobiles*/
-@media all and (max-width: 640px){
+@media all and (max-width: 979px){
     body{
         font-family: 'Raleway';
         margin: 0px;
@@ -376,12 +376,6 @@
         margin-top: -150px;
     }
 
-    .photoactivite3{
-        width: 100%;
-        height: auto;
-        margin-top: -25px;
-    }
-
     .legendactivite{
         font-weight: bold;
         color: black;
@@ -417,7 +411,7 @@
     }
 }
     /*Styles desktop*/
-@media screen and (min-width: 641px){
+@media screen and (min-width: 980px){
 
     body{
         font-family: 'Raleway';
@@ -939,8 +933,79 @@
     }
 }
 
-/*
-Styles pour les écrans de tablettes
+/*Styles pour les écrans de tablettes*/
 @media screen and (min-width: 780px) and (max-width: 979px){
 
+    .recherche{
+        width: 50%;
+    }
+
+    .boutonfiltre{
+        font-size: 0.9em;
+        padding: 12px 15px 0px 30px ;
+    }
+
+    .fondblanc{
+        width: 22px;
+    }
+
+    .divpop{
+        margin: 0px 80px 30px 80px;
+    }
+    
+    .divhebergement{
+        margin: 0px 80px 13px 80px;
+        height: 300px;
+    }
+
+    .divphoto{
+        height: 70%;
+    }
+
+    .legendephoto{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .nomhebergement{
+        width: 50%;
+        margin-top: 20px;
+    }
+
+    .tarifhebergement{
+        padding-left: 120px;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .notehebergement{
+        margin-top: 20px;
+    }
+
+    .divactivite{
+        margin: 12px 80px 20px 80px;
+        height: 300px;
+    }
+
+    .photoactivite{
+        margin-top: -100px;
+    }
+
+    .photoactivite2{
+        margin-top: -350px;
+    }
+
+    .legendactivite{
+        text-align: center;
+    }
+
+    footer{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .divfooter{
+        margin-right: 40px;
+        margin-left: 30px;
+    }
 }
