@@ -9,7 +9,7 @@
 }
 
 /*Styles pour mobiles*/
-@media all and (max-width: 979px){
+
     body{
         font-family: 'Raleway';
         margin: 0px;
@@ -111,7 +111,7 @@
         text-align: center;
         padding: 18px;
         display: block;
-    }g
+    }
 
     .chercher{
         display: none;
@@ -408,7 +408,7 @@
         color: black;
         font-size: 1em;
     }
-}
+
     /*Styles desktop*/
 @media screen and (min-width: 980px){
 
@@ -424,13 +424,10 @@
         flex-wrap: nowrap;
     }
 
-    a{
-        text-decoration: none;
-    }
-
     #logo{
         width: 7%;
-        height: auto;
+        padding-left: 0px;
+        padding-top: 0px;
         margin: 17px 55% 0 40px;
     }
 
@@ -442,25 +439,23 @@
     .inscription{
         order: 1;
         width: 13%;
-        color: #0065FC;
-        font-weight: bold;
         text-align: center;
         margin-top:  22px;
+        padding-top: 0px;
     }
 
     .navigationhebergement{
-        width: 50%;
-        color: #0065FC;
         border-top: 2px solid #0065FC;
-        text-align: center;
         padding-top: 20px;
+        border-bottom: none;
+        margin-top: 0px;
+        padding-bottom: 0px;
     }
 
     .navigationactivite{
-        width: 50%;
-        text-align: center;
-        color: black;
         margin-top: 22px;
+        border-bottom: none;
+        padding-bottom: 0px;
     }
 
     .trouverhebergement{
@@ -470,34 +465,18 @@
 
     .ligne{
         margin-left: 40px;
-
+        margin-top: 0px;
     }
 
     .boutonrecherche{
-        display: flex;
         margin: 30px 0px 20px 40px;
     }
 
     .recherche{
-        border: 1px #F2F2F2 solid;
-        border-radius: 0px;
-        border-right: none;
-        border-left: none;
         width: 18%;
-        padding-left: 10px;
-    }
-
-    .recherche::placeholder{
-        color: black;
-        font-weight: bold;
-        font-family: 'Raleway';
-        font-size: 1.2em;
     }
 
     .map{
-        background-color: #F2F2F2;
-        border-radius: 15px 0px 0px 15px;
-        text-align: center;
         padding: 14px 16px 0px 16px;
         font-size: 1.1em;
     }
@@ -912,6 +891,10 @@
         background-color: #F2F2F2;
     }
     
+    .divfooter{
+        width: 33%
+    }
+
     h3{
         font-size: 1.2em;
         margin: 0px;
@@ -920,7 +903,6 @@
     ul{
         list-style-type: none;
         padding-left: 0px;
-        width: 450px;
     }
 
     li{
